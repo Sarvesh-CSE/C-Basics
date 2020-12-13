@@ -8,9 +8,9 @@ int main()
     scanf("%f", &num1);
     printf("Enter Second Number: ");
     scanf("%f", &num2);
-    printf("Enter the Operator (+, -, *, /): ");
+    printf("Enter the Operator (+, -, *, /): \n ");
     scanf(" %c", &ch);
-    if(ch=='+')
+    if(ch=='+') 
         printf("Result = %0.2f", num1+num2);
     else if(ch=='-')
         printf("Result = %0.2f", num1-num2);
