@@ -3,8 +3,10 @@
 int main()
 {
     float num1, num2, res;
-    printf("Enter any two number: ");
-    scanf("%f%f", &num1, &num2);
+    printf("Enter First Number: ");
+    scanf("%f", &num1);
+    printf("Enter Second Number: ");
+    scanf("%f", &num2);
     res = num1+num2;
     printf("\nAddition = %.2f", res);
     res = num1-num2;
@@ -14,5 +16,5 @@ int main()
     res = num1/num2;
     printf("\nDivision = %.2f", res);
     getch();
-    return (1);
+    return (0);
 }
