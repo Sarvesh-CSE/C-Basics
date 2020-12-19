@@ -3,9 +3,9 @@
 int main()
 {
     float num1, num2, res;
-    printf("Enter First Number: ");
+    printf("\nEnter First Number: ");
     scanf("%f", &num1);
-    printf("Enter Second Number: ");
+    printf("\nEnter Second Number: ");
     scanf("%f", &num2);
     res = num1+num2;
     printf("\nAddition = %.2f", res);
