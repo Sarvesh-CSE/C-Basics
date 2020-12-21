@@ -4,6 +4,7 @@ int main() {
 
    // var1 is displayed. Then, it is increased to 6.
    printf("%d\n", var1++); // postincrement => increment post (after) return
+   printf("%d \n", var1);
 
    // var2 is increased to 6. Then, it is displayed.
    printf("%d\n", ++var2); // preincrement =>  increment pre (before) return
