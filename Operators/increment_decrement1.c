@@ -14,14 +14,15 @@ int main (void)
 
     int g=4, h=6;   //example-4
     printf ("%d\n", -g-- + --h);  // post-decrement in 'g' and pre-decrement in 'h', thus, -4+5=1
-    printf ("%d\n", --g - --h);  /* pre-decrement (also, post-increment in the previous statement) in 'g',
-                                 pre-decrement (also, pre-decrement in the previous statement) in 'g', 
+    printf ("%d\n", --g - --h);  /* pre-decrement (also, post-decrement in the previous statement) in 'g',
+                                 pre-decrement (also, pre-decrement in the previous statement) in 'h', 
                                  thus, 2-4= -2 */
     int i=3, j=5;  //example-5
     float k=2.5, l=4.2;
     printf ("%f\n", ++k * i-- / j++ + --l); // 3.5*3 /5 + 3.2 = 5.3 (Left to Right Associativity) 
                                             // (+- have lower precedence than /*)
-    printf ("%f\n", k+j+i-l); // 3.5 + 6 + 2 - 3.2 = 8.3
+    printf ("%f\n", k+j+i-l); /* 3.5 + 6 + 2 - 3.2 = 8.3 (Follow the increment/decrement in 
+                                 the previous statement as well) */
 
     float m=4.8, n=2.3;  //example-6
     printf ("%f", m++ - n--); // post-increment in 'i' and post-decrement in 'j', thus, 4.8-2.3= 2.5
