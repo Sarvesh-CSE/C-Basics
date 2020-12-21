@@ -1,3 +1,7 @@
+# Custom gitignore requirements
+*.exe
+
+
 # Prerequisites
 *.d
 
