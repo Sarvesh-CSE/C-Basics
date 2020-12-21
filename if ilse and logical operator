@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int anjali,anchal,ayush;
+printf("enter the age of anjali,anchal and ayush");
+scanf("%d %d %d",&anjali, &anchal ,&ayush);
+if(anjali<anchal && anjali<ayush)
+printf("anjali is the youngest one");
+else if (anchal<anjali && anchal<ayush)
+printf("the youngest one is anchal");
+else if(ayush<anjali && ayush<anchal)
+printf(" the youngest one is ayush");
+return 0;
+}
