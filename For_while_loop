@@ -1,0 +1,26 @@
+#include <stdio.h>
+ 
+void main()
+{
+          int i, j=0, num;
+          num=0;
+          for (i=0; i<5;i++)        /*example of for loop*/
+             {
+             	num=num+1;
+            } 
+          
+          printf("new value of num=%d \n", num) ;
+     
+     int num2=0;
+     while (j<=5)
+        {
+        	num2=num2 +1;
+        	j++;
+      } 
+          printf("new value of num2=%d \n", num2) ;
+               
+      } 
+             
+     
+     
+ 
