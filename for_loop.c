@@ -1,6 +1,6 @@
-/* FOR LOOP
-C program to calculate average of any n natural numbers entered through the keyboard
-*/
+// FOR LOOP
+//C program to calculate average of any n natural numbers entered through the keyboard.
+
 #include <stdio.h>
 
 int main()
