@@ -16,9 +16,8 @@ int main()
     scanf("%d", &num);
     sum += num;
   }
-
+  
  avg = sum/n;
  printf("The average of n natural numbers are: %f", avg);
-  
   return 0;
 }
