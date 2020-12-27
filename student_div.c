@@ -9,12 +9,15 @@ int main()
     per=(m1+m2+m3+m4+m5)*100/500; 
     printf("Percentage: %f\n", per);
     if(per>=60)
-          printf("first division\n");
+       printf("first division\n");
      
-    else if((per>=50)&&(per<60))
-          printf("second division\n");
+    else if(per>=50)
+       printf("second division\n");
 
-    else if(per<40)
-          printf("fail\n");
+    else if(per>=40)
+       printf("third division\n");
+       
+    else
+       printf("fail");
    return 0;
 }
