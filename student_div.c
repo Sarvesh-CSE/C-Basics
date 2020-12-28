@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
     int m1,m2,m3,m4,m5;
     float per;
@@ -10,14 +10,10 @@ int main()
     printf("Percentage: %f\n", per);
     if(per>=60)
        printf("first division\n");
-     
     else if(per>=50)
        printf("second division\n");
-
     else if(per>=40)
        printf("third division\n");
-       
     else
        printf("fail");
-   return 0;
 }
