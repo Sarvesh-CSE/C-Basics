@@ -8,6 +8,6 @@ void main()
           printf("computer classes\n");
           i = i+1;
      }
-     print("learning c");
+     printf("learning c");
 }     
   
