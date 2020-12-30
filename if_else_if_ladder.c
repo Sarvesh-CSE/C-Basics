@@ -2,11 +2,9 @@
 
 int main()
 {
-
     int marks;
     printf("Please enter your marks\n");
     scanf("%d", &marks);
-
     if (marks>=90 && marks<=100)
     {
         printf ("Your grade is A\n");
@@ -31,6 +29,5 @@ int main()
     {
         printf ("Invalid marks... Please enter the correct marks\n");
     }
-
     return 0;
 }
