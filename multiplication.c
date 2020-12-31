@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int n;
+    int n;
     printf("enter the number:\n");
     scanf("%d", &n);
     printf("MULTIPLICATION TABLE\n", n);
