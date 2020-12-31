@@ -11,6 +11,7 @@ int main()
     int i;
     clock_t start_time;
     clock_t end_time;
+    clock_t total_execution_time;
     start_time = clock();
     printf("%d \n", start_time);
     for(i=0;i<10;i++)
@@ -19,7 +20,7 @@ int main()
         printf("This is custom delay function\n");
     }
     end_time = clock();
-    end_time = end_time- start_time;
-    printf("Total execution time is %d \n", end_time);
+    total_execution_time = end_time- start_time;
+    printf("Total execution time is %d \n", total_execution_time);
     return 0;
 }
