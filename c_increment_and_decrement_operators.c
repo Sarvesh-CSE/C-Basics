@@ -7,6 +7,5 @@ int main ()
     printf("--b = %d \n",--b);
     printf("++c = %f \n",++c);
     printf("--d = %f \n",--d);
-    
     return 0; 
 }
