@@ -1,19 +1,19 @@
 // FOR LOOP
-//C program to calculate average of any n natural numbers entered through the keyboard.
+//C program to calculate average of any n numbers entered through the keyboard.
 
 #include <stdio.h>
 
 int main()
  {
-  int n, num, i;
-  float sum=0, avg;
+  int n, i;
+  float sum=0, num, avg;
   printf("How many numbers:\n");
   scanf("%d",&n);
-  printf("Enter the natural numbers:\n");
+  printf("Enter the numbers:\n");
 
   for (i= 0; i < n; i++)
   {
-    scanf("%d", &num);
+    scanf("%f", &num);
     sum += num;
   }
   
