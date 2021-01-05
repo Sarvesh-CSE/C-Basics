@@ -16,7 +16,7 @@ int main()
 
 int addNumbers(int a, int b)         // function definition   
 {
-    int result;
+    int result=0;
     result = a+b;
     return result;                  // return statement
 }
