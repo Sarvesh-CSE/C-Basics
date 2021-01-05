@@ -2,8 +2,8 @@
 void main()
 {
      int i,x,num;
-     printf("enter the number till which you want to find prime number",num);
-     scanf("%d",&num);
+     printf("enter the number",num);      \\till which you want to find prime numbers\\
+     scanf("%d",&num);                    
      for(x=2;x<=num;x++)
      {
         for(i=2;i<=x;i++)
@@ -16,3 +16,4 @@ void main()
         else
         continue;
     }
+}
