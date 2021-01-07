@@ -3,8 +3,8 @@
 #include <stdio.h>
 void fun1 (int p, int q) //Function 1 Prototype
 {
-    int r;
-    r = p, p = q, q = r;       /* According to this function, we get; (p=8, q=7, r=7)
+    int temp;
+    temp = p, p = q, q = temp;  /*Here, According to this function, we get; (q=9, r=8)
                                   But, these variables are local to this function.
                                   When this function procedure finishes, we get back to the calling procedure,
                                   then these variables will get destroyed and whatever changes were made 
@@ -12,9 +12,9 @@ void fun1 (int p, int q) //Function 1 Prototype
 }
 void fun2 (int *p, int *q) //Function 2 Prototype
 {
-    int r;
-    r = *p, *p = *q, *q = r;    /* Here, * in *p means that we are trying to access the value stored in this address.
-                                   According to this function, we get; (p=8, q=7, r=7) 
+    int temp;
+    temp = *p, *p = *q, *q = temp;    /* Here, * in *p means that we are trying to access the value stored in this address.
+                                   According to this function, we get; (p=8, q=7) 
                                    and these changes in the formal parameters will get reflected to the 
                                    actual parameters because both refers to the same memory location. */
 }
