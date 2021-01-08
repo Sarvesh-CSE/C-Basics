@@ -7,18 +7,18 @@ int main()
       printf("\nThe given array is:\n");
        for(i=0; i<=9; i++)
        {
-            printf("%d\t",num[i]);
+           printf("%d\t",num[i]);
        }
        for(i=0; i<=9; i=i+2)
        {
-        t=num[i];
-        num[i]=num[i+1];
-        num[i+1]=t;
+           t=num[i];
+           num[i]=num[i+1];
+           num[i+1]=t;
        }
-        printf("\nThe interchanged array is:\n");
+           printf("\nThe interchanged array is:\n");
        for(i=0; i<=9; i++)
        {
-        printf("%d\t",num[i]);
+           printf("%d\t",num[i]);
        }  
     return(0);
 }
