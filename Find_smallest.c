@@ -14,6 +14,5 @@
    	 	small=arr[i];
    	 } 
    	printf("\nsmallest number:%d",small);
-   	
     } 
 	
