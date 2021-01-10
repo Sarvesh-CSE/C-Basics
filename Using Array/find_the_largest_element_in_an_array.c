@@ -1,5 +1,6 @@
 #include<stdio.h>
-int main(){
+int main()
+{
     int i, n;
     float arr[100];
     printf("enter the number of element(1 to 100):");
