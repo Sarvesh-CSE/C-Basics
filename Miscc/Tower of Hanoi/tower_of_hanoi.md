@@ -12,7 +12,7 @@ Tower of Hanoi is a mathematical puzzle where we have three rods and 'n' number 
 
 ### Image illustration for 'N' Disks-
 
-![Tower of Hanoi](./tower-of-hanoi-1.png)
+![Tower of Hanoi](./tower_of_hanoi.png)
 
 ### Program in C -
 
