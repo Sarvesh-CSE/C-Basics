@@ -5,7 +5,7 @@ int real,img;
 };
 int main()
 {
-  	struct complexNo first,second,temp;
+  	struct complexNo first,second;
    	printf("Enter the values of a and b where a + ib is the first complex number.\n");
    	printf("enter the value of a : ");
    	scanf("%d", &first.real);
@@ -16,19 +16,15 @@ int main()
    	scanf("%d", &second.real);
    	printf("enter the value of y : ");
    	scanf("%d", &second.img);
-   	sum(first,second,temp);
-   return 0;
+   	sum(first,second);
 }
-void sum(struct complexNo first,struct complexNo second,struct complexNo temp)
+void sum(struct complexNo first,struct complexNo second)
 {
-    	temp.real = first.real + second.real;
-    	temp.img = first.img + second.img;
-    	if ( temp.img >= 0 )
-    	{
-        		printf("Sum of two complex numbers = %d + %di\n", temp.real,temp.img);
-    	}
+    struct complexNo temp;
+    temp.real = first.real + second.real;
+    temp.img = first.img + second.img;
+    if ( temp.img >= 0 )
+        printf("Sum of two complex numbers = %d + %di\n", temp.real,temp.img);
    	else
-   	{
-      		printf("Sum of two complex numbers = %d %di\n", temp.real, temp.img);
-   	}
+      	printf("Sum of two complex numbers = %d %di\n", temp.real, temp.img);
 }
