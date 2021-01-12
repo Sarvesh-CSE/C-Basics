@@ -2,7 +2,7 @@
 
 Tower of Hanoi is a mathematical puzzle where we have three rods and 'n' number of disks. The objective of the puzzle is to move the entire stack of disks from one rod to another rod.
 
-## The following rules must be obeyed to solve the puzzle-
+## The following rules must be obeyed to solve the puzzle
 
 * Only one disk can be moved at a time.
 
@@ -10,11 +10,11 @@ Tower of Hanoi is a mathematical puzzle where we have three rods and 'n' number 
 
 * No disk may be placed on top of a smaller disk.
 
-### Image illustration for 'N' Disks-
+### Image illustration for 'N' Disks
 
 ![Tower of Hanoi](./tower_of_hanoi.png)
 
-### Program in C -
+### Program in C
 
 ```C
 //An example of a C recursive function, Tower of Hanoi.
@@ -39,7 +39,7 @@ int main()
 } 
 ```
 
-### Output-
+### Output
 
 ```.
 
@@ -60,7 +60,7 @@ int main()
  Move disk 1 from rod B to rod C
 ```
 
-### Basic Logic-
+### Basic Logic
 
 A, B and C are rods or pegs and n is the total number of discs, 4 is the largest disk and 1 is the smallest one.
 
