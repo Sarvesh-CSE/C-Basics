@@ -1,4 +1,4 @@
-Example: Simple Calculator
+// Example: Simple Calculator
 // Program to create a simple calculator
 #include <stdio.h>
 
