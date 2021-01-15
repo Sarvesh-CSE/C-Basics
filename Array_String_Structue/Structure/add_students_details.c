@@ -3,14 +3,14 @@ void main()
 {
     struct student
     {
-        char name[100];
-        char email[100];
-        long long int mobile;
+        char name[50];
+        char email[50];
+        long int mobile;
     }student;
     struct add
     {
-        char street[100];
-        char city[100];
+        char street[50];
+        char city[50];
         int pin;
     }add;
     struct dob
@@ -25,7 +25,8 @@ void main()
     printf("Enter the email\n");
     gets(student.email);
     printf("Enter the mobile number\n");
-    scanf("%lld",&student.mobile);
+    scanf("%ld",&student.mobile);
+    printf ("--------------------------\n");
     printf("Enter the address\n");
     printf("Enter your street\n");
     getchar();
@@ -34,6 +35,7 @@ void main()
     gets(add.city);
     printf("Enter your pin\n");
     scanf("%d",&add.pin);
+    printf ("--------------------------\n");
     printf("Enter your date of birth\n");
     printf("Enter the date\n");
     scanf("%d",&dob.date);
@@ -44,10 +46,9 @@ void main()
     printf("\n\n\n\n\n\n");
     printf("Check your details\n");
     printf("Student details are:\n");
-    printf("%s\n%s\n%lld\n",student.name,student.email,student.mobile);
+    printf("%s\n%s\n%ld\n",student.name,student.email,student.mobile);
     printf("Address details are\n");
     printf("%s\n%s\n%d\n",add.street,add.city,add.pin);
     printf("Date of birth is \n");
     printf("%d\n%d\n%d\n",dob.date,dob.month,dob.year);
-
 }
