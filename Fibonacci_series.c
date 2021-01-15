@@ -1,12 +1,11 @@
-  #include<stdio.h>
-  void fibonacci(void);
-  void main() 
+#include<stdio.h>
+void fibonacci(void);
+void main() 
      { 
    	fibonacci();
      } 
-   
-   void fibonacci() 
-     {
+void fibonacci() 
+{
    	int arr[50];
    	arr[0]=0;
    	arr[1]=1;
@@ -21,7 +20,6 @@
    	  	printf ("%d", arr[i+2]);
    	        printf("\t");
    	  } 
-   	
-        } 
+}
    	  	
    	
