@@ -10,7 +10,7 @@ void main()
         for(j=i+1;j<5;j++)
          {
             if(a[i]==a[j])
-               printf("repeated number is:%d\n",a[j]);
+               printf("Repeated number is:%d\n",a[j]);
          }
     }
 }
