@@ -9,5 +9,5 @@ void main()
    if(shyam<ram && shyam<ajay)
       printf("shyam is youngest");
    if(ajay<ram && ajay<shyam)
-      printf("Ajay is youngest");
+      printf("ajay is youngest");
 }
