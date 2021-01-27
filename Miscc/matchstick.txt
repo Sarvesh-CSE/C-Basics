@@ -1,0 +1,26 @@
+ The game is to be played beteen the computer and a user with a condition that Computer wins always. 
+ It also includes certain rules alongwith the condition:
+ 1. 21 matchsticks 
+ 2. The player can choose maximum of 1, 2, 3, or 4 matchsticks.
+ 3. The computer can make a choice after the player doest it.
+ 4. The last player that is; the one who has to choose the last matchstick looses.
+
+ ISSUES I fACED:
+ I was unable to make out what is referred to as "the last matchstick" also how to make the devision of right choices.
+ How to settle the win-win situation.
+
+ LOGIC I USED:
+ Since we had a bunch of 21 matchsticks, the last one will be the 21st matchstick. The maximum matchstick 
+ a participant can choose is 4 so the total number of matchsticks needed will be 5. 
+ We have to ask the user to choose the sticke out of 4 and keep computers choice alternative to the participant,
+ such that it helps us to keep a set rule of 5 matchsticks being used.
+ We run 4 set of loop if the condition is fufilled if not the loop continues for more rounds.
+
+ ERRORS I DID
+
+ 1. I was taking maximum of 4 matchstick in a single go not concerning of the computer's choice.
+ 2. I was breaking the code and that resulted in further stoping the code.
+ 3. I amde big mistakes, first was taking random fuction and not intialising the number of matchstics despite the fact it was fixed.
+ 4. I tried it with for, while and finally I found do while the best option to go with, because then I was break in place of continue and it caused error if the first value we entered was wrong.
+ 
+ The code was over all easy to understand. The code is not general, it is working.
