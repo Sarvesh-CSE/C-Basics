@@ -8,7 +8,7 @@ int strlen(char * s) {
 void main()
 {
 
-    char *c = "HelloWorld";
+    char *c = "HelloWorld!";
     int string_len = strlen(c);
     printf("%d", string_len);
 }
