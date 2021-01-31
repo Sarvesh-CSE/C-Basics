@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    float cp, sp, p, l;
+    float cp, sp, p;
     printf("\nEnter cost price and selling price:");
     scanf("%f %f", &cp, &sp);
     p = sp - cp;
