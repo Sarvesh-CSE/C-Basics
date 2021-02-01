@@ -27,9 +27,9 @@ int main()
 
 ## Visual Representation of array stored in memory
 
-![Visual Representation of Array, Figure 1](./img_array.png)
+![Visual Representation of Array, Figure 1](./img_array.jpg)
 
-![Visual Representation of Array, Figure 2](./img_array1.png)
+![Visual Representation of Array, Figure 2](./img_array1.jpg)
 
 ## Explanation-
 
