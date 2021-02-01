@@ -15,3 +15,4 @@ int main()
 
     return 0;
 }
+//Program to calculate the sum of first n positive natural numbers//
