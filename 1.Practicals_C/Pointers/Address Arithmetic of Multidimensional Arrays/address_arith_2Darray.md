@@ -1,5 +1,3 @@
-##### Author: Anjali Kumari (MSc. Bioinformatics); Date: 01/02/2021
-
 # Address Arithmetic of Multidimensional Arrays
 
 An example of processing the multidimensional array elements or address arithmetic of multidimensional arrays. Lets assume that the address of x is 2000 (in decimal) and an integer requires four bytes of memory, then find the output of the following program.
