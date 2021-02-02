@@ -1,5 +1,4 @@
 // A program showing address arithmetic in a 2D array
-// Author: Anjali Kumari (MSc. Bioinformatics); Date: 01/02/2021
 
 #include <stdio.h>
 int main()
