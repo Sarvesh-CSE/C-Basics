@@ -4,7 +4,7 @@ int main()
 {
     FILE *fptr = NULL;
     //create a text file
-    fptr  = fopen ("my_file.txt", "w");
+    fptr  = fopen ("my_file.txt", "w"); //"E://DE_Data/my_file.txt"
     if(fptr == NULL)
     {
         printf("File is not created\n");
