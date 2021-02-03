@@ -11,8 +11,17 @@ int main()
         exit(1);
     }
     else
-    {
         printf("File is created\n");
+
+    char name[40];
+    //three times asking for student name
+    for (int i=0 ; i<4; i++)
+    {
+        puts ("Enter the student name: ");
+        //Get input from the user
+        gets (name);
+        //Write formated data into the file
+        fprintf (fptr, "%d. Name  = %s\n",i,name);
     }
     //close the file
     fclose(fptr);
