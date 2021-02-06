@@ -8,7 +8,6 @@ void main()
    {
        printf("\nCould not open file test.c");            //if file does not exist in current directory it will not create new file in read mode.
    }
-   printf("\n");
    while(1)
    {
        c=fgetc(fp);                                        // reading the file character by character
@@ -17,5 +16,4 @@ void main()
        printf("%c",c);                                    //printing the content of file
    }
    fclose(fp);                                             // Closing the file
-   return 0;
 }
