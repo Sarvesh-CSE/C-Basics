@@ -3,7 +3,7 @@
 #include<stdio.h> 
   
 enum week{Mon, Tue, Wed, Thur, Fri, Sat, Sun}; 
-enum year{Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}; 
+enum year{Jan=1, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct=20, Nov, Dec}; 
 enum State {Working = 1, Failed = 0, Freezed = 0}; 
   
 int main() 
