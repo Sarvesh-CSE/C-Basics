@@ -5,7 +5,8 @@
 int main()
 {
     float radius, area;
-    printf("Current time: %s \n",__TIME__); 
+    printf("The script running is: %s \n", __FILE__);
+    printf("Current time is: %s \n",__TIME__); 
     printf("Enter the radius: ");
     scanf("%f", &radius);
     area = CIRCLE_AREA(radius);
