@@ -7,7 +7,7 @@
 #endif
 
 int main(void) {
-   message_for(Carole, Debra);
+    message_for(Carole, Debra);
     printf("Here is the message: %s\n", MESSAGE);  
    return 0;
 }
