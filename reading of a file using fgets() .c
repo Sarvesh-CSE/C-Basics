@@ -8,9 +8,9 @@ main()
     printf("file not found");
     return(-1);
   }
-  while(fgets(str,9,fp)!=NULL)       //fgets(str,n,fp)
+  while(fgets(str,9,fp)!=NULL)       //read from file
   {
-    printf("%s",str);
+    printf("%s",str);                //print read content to Stdout file
   }
   fclose(fp);
 }
