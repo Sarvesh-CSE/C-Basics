@@ -3,12 +3,12 @@ main()
 {
   char str[10];
   FILE *fp=fopen("f1.txt"."r");
-  if(fp == null)
+  if(fp == NULL)
   { 
     printf("file not found");
     exist(1);
   }
-  while(fgets(str,9,fp)!=null)       //fgets(str,n,fp)
+  while(fgets(str,9,fp)!=NULL)       //fgets(str,n,fp)
   {
     printf("%s",str);
   }
