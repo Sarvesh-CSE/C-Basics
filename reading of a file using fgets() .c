@@ -2,8 +2,7 @@
 main()
 {
   char str[10];
-  FILE *fp;
-  fp = fopen("f1.txt"."r");
+  FILE *fp=fopen("f1.txt"."r");
   if(fp == null)
   { 
     printf("file not found");
