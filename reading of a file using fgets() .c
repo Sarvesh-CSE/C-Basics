@@ -6,7 +6,7 @@ main()
   if(fp == NULL)
   { 
     printf("file not found");
-    exist(1);
+    return(-1);
   }
   while(fgets(str,9,fp)!=NULL)       //fgets(str,n,fp)
   {
