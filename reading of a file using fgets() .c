@@ -2,7 +2,7 @@
 main()
 {
   char str[10];
-  file *fp;
+  FILE *fp;
   fp = fopen("f1.txt"."r");
   if(fp == null)
   { 
