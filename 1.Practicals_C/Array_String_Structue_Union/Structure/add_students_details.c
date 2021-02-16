@@ -9,15 +9,12 @@ void main()
     }student;
     struct add
     {
-        char street[50];
-        char city[50];
+        char street[50], city[50];
         int pin;
     }add;
     struct dob
     {
-        int date;
-        int month;
-        int year;
+        int date, month, year;
     }dob;
     printf("Enter the student details\n");
     printf("Enter the name\n");
