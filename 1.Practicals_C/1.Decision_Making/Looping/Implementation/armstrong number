@@ -2,7 +2,7 @@
  int main()    
 {    
     int n,r,sum=0,a;    
-    printf("enter three digit number from 0 to 255 =",n);    
+    printf("enter a number =",n);    
     scanf("%d",&n);    
     a=n;    
     while(n>0)    
