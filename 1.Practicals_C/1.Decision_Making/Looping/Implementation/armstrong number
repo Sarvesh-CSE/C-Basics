@@ -1,0 +1,19 @@
+#include<stdio.h>  
+ int main()    
+{    
+    int n,r,sum=0,a;    
+    printf("enter three digit number from 0 to 255 =",n);    
+    scanf("%d",&n);    
+    a=n;    
+    while(n>0)    
+    {    
+        r=n%10;    
+        sum=sum+(r*r*r);    
+        n=n/10;    
+    }    
+    if(a==sum)    
+    printf("armstrong  number is =%d ",a);    
+    else    
+    printf(" Number is not armstrong number=%d",a);    
+    return 0;  
+}   
