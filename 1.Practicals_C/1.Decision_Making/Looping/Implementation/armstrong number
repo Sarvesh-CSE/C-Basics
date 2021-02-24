@@ -1,28 +1,28 @@
-#include<stdio.h>  
+#include <stdio.h> 
+#include <math.h>
  int main()    
 {    
-   int n,b,r,c,sum=0;
+   int orignalnum,num,reminder,c=0,sum=0;
     printf("Enter a number less then 32768: ");
-    scanf("%d", &n);
-
-    b = n;
-
-             // store the number of digits of n in c
-   for (c>=0; b!= 0; ++c) {
-       b /= 10;
+    scanf("%d", &num);
+    orignalnum = num;
+          // store the number of digits of num in c
+   while(orignalnum!=0) 
+   {
+       orignalnum /= 10;
+       c++;
    }
-
-   for (b<=n; b!=0; b/= 10) {
-       r = b % 10;
-
-            // store the sum of the power of individual digits in sum
-      sum+= pow(r, c);
+   orignalnum=num;
+   while (orignalnum!=0) 
+   {
+       reminder = orignalnum % 10;
+       orignalnum/=10;
+             // storing the sum of the power of individual digits in sum
+      sum+= pow(reminder, c);
    }
-
-          // if num is equal to result, the number is an Armstrong number
-   if (sum == b)
-    printf("%d is an Armstrong number.", n);
+   if (sum == num)
+    printf("%d is an Armstrong number.", num);
    else
-    printf("%d is not an Armstrong number.", n);
+    printf("%d is not an Armstrong number.", num);
    return 0;
 }   
