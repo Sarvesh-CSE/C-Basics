@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter a number\n");
+    scanf("%d",&a);
+    printf("Enter another number\n");
+    scanf("%d",&b);
+    printf("Enter a third number\n");
+    scanf("%d",&c);
+    
+    if(a>b&&a>c)
+    {
+        printf("%d is greatest\n",a);
+
+    }
+    else if (b>a&&b>c)
+    {
+        printf("%d is greatest\n",b);
+    }
+    else if(c>a&&c>b)
+    {
+        printf("%d is greatest\n",c);
+    }
+    else
+    {
+        printf("Nothing matched\n");
+    }
+    return 0;
+    
+    
+}
