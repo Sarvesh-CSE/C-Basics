@@ -22,6 +22,4 @@ int main()
         printf("You failed\n");
     }
     return 0;
-    
-
 }
