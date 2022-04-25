@@ -1,0 +1,54 @@
+// Increment and decrement operators for int and float data types
+#include<stdio.h>
+int main ()
+{
+    // program 1: Pre increment and decrement
+    {
+    int x=24, y=29;
+    float v=80.5, z=19.9;
+    printf("Pre increment (++x) = %d \n",++x); //value increased and the returned (25)
+
+    printf("pre decrement (--y) = %d \n",--y); //value decresed and then returned (28)
+
+    printf("pre increment (++v) = %f \n",++v);
+
+    printf("pre decrement (--z) = %f \n",--z);
+    }
+
+    // program 2: Post increment and decrement
+    {
+    int c=15, d=160;
+    float l=14.7, m=12.8;
+    printf("\n\n\nPost increment c++ = %d \n",c++); //value shown will be 15
+    printf("now, value of c will be = %d\n", c); //this line will show the value after increment i.e. 16
+
+    printf("\npost decrement d-- = %d \n",d--); //value shown will be 160
+    printf("now, value of d will be = %d\n", d); //this line will show the value after decrement i.e. 159
+
+    printf("\npost increment l++ = %f \n",l++); //value shown will be 14.7
+    printf("now, value of l will be = %f\n", l); // this line will show the value after increment  i.e. 15.7
+
+    printf("\npost decrement m-- = %f \n",m--); //value shown will be 12.8
+    printf("now, value of m will be = %f\n", m); //this line will show the value after decrement i.e. 11.8
+    }
+
+    // program 3
+    {
+    int g= -20;
+    float p=21.3;
+    printf("\n\n\nPost increment g++ = %d \n",g++); //value will be -20
+    printf("now, value of g will be = %d\n", g); //value will be -19
+
+    printf("\npost decrement g-- = %d \n",g--); //value will be -19 as, after post increment the value of x was increased to -19
+    printf("now, value of g will be = %d\n",g); //value will be -20
+
+    printf("\nPost increment p++ = %.1f \n",p++); //value will be 21.3
+    printf("now, value of p will be = %.1f\n", p); //value will be 22.3
+
+    printf("\npost decrement p-- = %.1f \n",p--); //value will be 22.3 as after post increment the value of x was increased to 22.3
+    printf("now, value of p will be = %.1f\n",p); //value will be 21.3
+    }
+
+    return 0;
+
+}
