@@ -1,3 +1,8 @@
+# Ignoring json files plus temporary file generated during debugging
+*.json
+tempCodeRunnerFile.c
+
+
 # Custom gitignore requirements
 *.exe
 
